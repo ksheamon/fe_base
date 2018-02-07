@@ -1,0 +1,12 @@
+**/*.ico
+**/*.png
+**/*.gif
+**/*.jpg
+**/*.html
+**/*.php
+**/*.twig
+**/.*
+node_modules
+httpdocs
+
+outdatedbrowser.js

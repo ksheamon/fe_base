@@ -1,0 +1,52 @@
+{
+  "name": "samplefe",
+  "version": "1.0.0",
+  "description": "base structure for frontend development independent of backend, including living style guide",
+  "main": "./src/main.js",
+  "scripts": {
+    "clean": "rimraf ./dist/*",
+    "eslint": "eslint \"./src/**/*.js\"",
+    "stylelint": "stylelint \"./src/**/*.scss\"",
+    "test": "npm run eslint -- --fix; npm run stylelint",
+    "build": "npm run clean && npm run serve",
+    "serve" : "gulp serve && webpack"
+  },
+  "author": "Kimberly Sheamon",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.2.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-inline-svg": "^1.0.2",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "kss": "^3.0.0-beta.18",
+    "make-dir": "^1.1.0",
+    "michelangelo": "^0.7.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-hot-middleware": "^2.21.0"
+  }
+}

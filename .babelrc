@@ -1,0 +1,28 @@
+{
+    "presets": ["es2015"],
+    "plugins": [],
+    "env": {
+        "test": {},
+        "dev": {},
+        "staging": {
+            "plugins": [
+                [
+                    "transform-es2015-classes",
+                    "remove-code", {
+                        "function": ["console.[^_]+"]
+                    }
+                ]
+            ]
+        },
+        "production": {
+            "plugins": [
+                [
+                    "transform-es2015-classes",
+                    "remove-code", {
+                        "function": ["console.[^_]+"]
+                    }
+                ]
+            ]
+        }
+    }
+}

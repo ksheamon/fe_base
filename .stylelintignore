@@ -1,0 +1,13 @@
+**/*.ico
+**/*.png
+**/*.gif
+**/*.jpg
+**/*.svg
+**/*.html
+**/*.php
+**/.*
+httpdocs
+node_modules
+
+normalize.scss
+outdatedbrowser.scss
