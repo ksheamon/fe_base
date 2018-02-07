@@ -1,12 +1,14 @@
 # Front-End Base #
 
-File structure for beginning front-end development.  Meant to be independent of back-end technologies.  
+File structure for beginning front-end development.  Meant to be independent of back-end technologies.
 
   * React JS components using ES6
   * Sass preprocessor
   * SVG icon management
+  
+Also includes styleguide generator based on kss-node.
+Documentation on how to get started with kss-node (and with Node.js' npm) is available on the [kss-node wiki](https://github.com/kss-node/kss-node/wiki).
 
-Also includes living styleguide generator.
 
 ## Dependencies ##
   1. [NodeJs](https://nodejs.org/en/)
